@@ -34,5 +34,9 @@ public class CalciImplementation implements Calci {
 	{
 		return a+b+c;
 	}
+	
+	public int sub(int m,int n,int o) {
+		return m-n-o;
+	}
 
 }
