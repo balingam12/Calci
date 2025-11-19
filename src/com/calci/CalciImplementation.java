@@ -22,12 +22,12 @@ public class CalciImplementation implements Calci {
 
 	@Override
 	public int div(int a, int b) {
-<<<<<<< HEAD
-		
-=======
-		//this is new change by vamshi
->>>>>>> 8277efbf57266256d7c65f0ed0a10710215ad10f
+
 		return a/b;
+	}
+	
+	public int mod(int a,int b) {
+		return a%b;
 	}
 
 }
