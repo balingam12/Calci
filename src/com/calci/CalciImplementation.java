@@ -11,22 +11,18 @@ public class CalciImplementation implements Calci {
 	@Override
 	public int sub(int a, int b) {
 		// TODO Auto-generated method stub
-		return a-b;
+		return 0;
 	}
 
 	@Override
 	public int multi(int a, int b) {
 		// TODO Auto-generated method stub
-		return a*b;
+		return 0;
 	}
 
 	@Override
 	public int div(int a, int b) {
-<<<<<<< HEAD
-		
-=======
-		//this is new change by vamshi
->>>>>>> 8277efbf57266256d7c65f0ed0a10710215ad10f
+//		this adarsh code
 		return a/b;
 	}
 
