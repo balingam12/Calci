@@ -4,26 +4,30 @@ public class CalciImplementation implements Calci {
 
 	@Override
 	public int add(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		//this is vishnu imp
+		return a+b;
 	}
 
 	@Override
 	public int sub(int a, int b) {
 		// TODO Auto-generated method stub
-		return 0;
+		return a-b;
 	}
 
 	@Override
 	public int multi(int a, int b) {
 		// TODO Auto-generated method stub
-		return 0;
+		return a*b;
 	}
 
 	@Override
 	public int div(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+
+		return a/b;
+	}
+	
+	public int mod(int a,int b) {
+		return a%b;
 	}
 
 }
