@@ -25,5 +25,9 @@ public class CalciImplementation implements Calci {
 //		this adarsh code
 		return a/b;
 	}
+	
+	public int mod(int a,int b) {
+		return a%b;
+	}
 
 }
